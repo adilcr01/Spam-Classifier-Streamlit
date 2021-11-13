@@ -1,5 +1,5 @@
-# Used Car Price Prediction Using Machine Learning
-## Car-Price Prediction
+# Spam Classifier Using Machine Learning
+## Spam Classifier
 This repository consists of files required for end to end implementation and deployment of Machine Learning Spam Classifier web application created with Streamlit and deployed on the Heroku platform.
 
 ## Project Explanation
