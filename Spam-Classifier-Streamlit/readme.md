@@ -9,7 +9,7 @@ The CountVectorizer provides a simple way to both tokenize a collection of text 
 ## TF-IDF Vectorizer
 Tf-idf is a method which gives us a numerical weightage of words which reflects how important the particular word is to a document in a corpus. A corpus is a collection of documents. Tf is Term frequency, and IDF is Inverse document frequency. This method is often used for information retrieval and text mining.
 
-Term Frequency:
+#### Term Frequency:
 
 Term frequency is defined as the number of times a word (i) appears in a document (j) divided by the total number of words in the document.
 inverse document frequecy | Bag-of-words vs TFIDF vectorization
@@ -17,7 +17,7 @@ inverse document frequecy | Bag-of-words vs TFIDF vectorization
 ![image](https://user-images.githubusercontent.com/93968656/141609082-c3dd68c0-5860-422d-a602-149d816cef66.png)
 
 
-Inverse Document Frequency:
+#### Inverse Document Frequency:
 
 Inverse document frequency refers to the log of the total number of documents divided by the number of documents that contain the word. The logarithm is added to dampen the importance of a very high value of IDF.
 log of idf
