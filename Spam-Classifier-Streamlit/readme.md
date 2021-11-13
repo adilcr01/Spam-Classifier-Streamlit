@@ -55,8 +55,8 @@ Spam Classifier Dataset https://www.kaggle.com/uciml/sms-spam-collection-dataset
 ## Tech Stacks
 ##### Programming Language : Python
 ##### WebFramework: Steamlit
-##### Machine Learning Library: Numpy, Pandas, sklearn, NLP
-
+##### Machine Learning Library: Numpy, Pandas, sklearn
+##### NLP library: NLTK, CountVectorizer, TF-IDF Vectorizer
 
 ## Deployement on Heroku
 
