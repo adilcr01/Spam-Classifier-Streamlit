@@ -9,11 +9,27 @@ The CountVectorizer provides a simple way to both tokenize a collection of text 
 ## TF-IDF Vectorizer
 Tf-idf is a method which gives us a numerical weightage of words which reflects how important the particular word is to a document in a corpus. A corpus is a collection of documents. Tf is Term frequency, and IDF is Inverse document frequency. This method is often used for information retrieval and text mining.
 
-Tf(Term Frequency): Term frequency can be thought of as how often does a word ‘w’ occur in a document ‘d’. More importance is given to words frequently occurring in a document. The formula of Term frequency is:
+Term Frequency:
 
-IDF(inverse document frequency): Sometimes, words like ‘the’ occur a lot and do not give us vital information regarding the document. To minimize the weight of terms occurring very frequently by incorporating the weight of words rarely occurring in the document. In other words, idf is used to calculate rare words’ weight across all documents in corpus. Words rarely occurring in the corpus will have higher IDF values
+Term frequency is defined as the number of times a word (i) appears in a document (j) divided by the total number of words in the document.
+inverse document frequecy | Bag-of-words vs TFIDF vectorization
 
-![image](https://user-images.githubusercontent.com/93968656/141608992-a285afe1-beb0-4da1-8682-b2d7cdb1e853.png)
+![image](https://user-images.githubusercontent.com/93968656/141609082-c3dd68c0-5860-422d-a602-149d816cef66.png)
+
+
+Inverse Document Frequency:
+
+Inverse document frequency refers to the log of the total number of documents divided by the number of documents that contain the word. The logarithm is added to dampen the importance of a very high value of IDF.
+log of idf
+
+![image](https://user-images.githubusercontent.com/93968656/141609074-128b69bc-3e78-4b5c-b1e1-d57605c54350.png)
+
+
+TFIDF is computed by multiplying the term frequency with the inverse document frequency.
+Tfidf | Bag-of-words vs TFIDF vectorization
+
+![image](https://user-images.githubusercontent.com/93968656/141609069-1054a80d-1c3b-4514-9bf5-f1c7a1165eb4.png)
+
 
 
 ## Project Explanation
