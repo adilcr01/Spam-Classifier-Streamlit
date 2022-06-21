@@ -12,7 +12,7 @@ Tf-idf is a method which gives us a numerical weightage of words which reflects 
 #### Term Frequency:
 
 Term frequency is defined as the number of times a word (i) appears in a document (j) divided by the total number of words in the document.
-inverse document frequecy | Bag-of-words vs TFIDF vectorization
+inverse document frequecy 
 
 ![image](https://user-images.githubusercontent.com/93968656/141609082-c3dd68c0-5860-422d-a602-149d816cef66.png)
 
