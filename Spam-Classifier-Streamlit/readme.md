@@ -26,7 +26,7 @@ log of idf
 
 
 TFIDF is computed by multiplying the term frequency with the inverse document frequency.
-Tfidf | Bag-of-words vs TFIDF vectorization
+
 
 ![image](https://user-images.githubusercontent.com/93968656/141609069-1054a80d-1c3b-4514-9bf5-f1c7a1165eb4.png)
 
