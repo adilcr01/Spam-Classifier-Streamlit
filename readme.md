@@ -58,12 +58,13 @@ Spam Classifier Dataset https://www.kaggle.com/uciml/sms-spam-collection-dataset
 ##### Machine Learning Library: Numpy, Pandas, sklearn
 ##### NLP library: NLTK, CountVectorizer, TF-IDF Vectorizer
 
-## Deployement on Heroku
+## Deployement on Amazon AWS
 
-##### Login or signup in order to create virtual app. You can either connect your github profile or download Heroku cli to manually deploy this project.
-![image](https://user-images.githubusercontent.com/93968656/141474123-3dc0d678-af4b-4527-92af-17d05a5d0481.png)
+##### Login or signup in order to create virtual app. You can either connect your github profile to clone it or download any cli to manually deploy this project from local.
+![image](https://user-images.githubusercontent.com/93968656/218245881-48d1ba34-6dcb-474d-9c9c-c3d75c338edf.png)
 
-##### The next step would be to follow the instruction given in the Heroku Documentation to deploy a web app.
+
+##### The next step would be to follow the instruction given in the AWS Documentation to deploy a web app.
 
 ## How to run the project on local system?
 ##### 1. Clone this repository in your local system.
@@ -74,8 +75,4 @@ Spam Classifier Dataset https://www.kaggle.com/uciml/sms-spam-collection-dataset
 
 
 ## Link to the application
-Check out the live demo: https://spam-classifier1.herokuapp.com/
-
-##### Note: You might expect delay in loading the website as the webframework used is Streamlit.
-
-
+Check out the live demo: http://100.24.244.179:8501/
