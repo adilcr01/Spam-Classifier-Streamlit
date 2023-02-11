@@ -76,3 +76,6 @@ Spam Classifier Dataset https://www.kaggle.com/uciml/sms-spam-collection-dataset
 
 ## Link to the application
 Check out the live demo: http://100.24.244.179:8501/
+
+## Also deployed using Streamlit
+https://adilcr01-spam-classifier-streamlit-app-jgcodn.streamlit.app/
